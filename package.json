@@ -1,0 +1,26 @@
+{
+  "name": "toy-robot",
+  "version": "1.0.0",
+  "description": "Toy Robot demo",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "test:watch": "jest --watchAll",
+    "docs": "jsdoc src/**"
+  },
+  "keywords": [
+    "toy",
+    "robot"
+  ],
+  "author": "James Gee",
+  "license": "ISC",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^23.5.0",
+    "jsdoc": "^3.5.5"
+  }
+}
